@@ -3,35 +3,13 @@
 <br>
 
 <div align="center">
-  <style>
-    /* Fade-in animation */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* Hover effect for logos */
-    .logo-container img {
-      transition: transform 0.3s ease, filter 0.3s ease;
-    }
-    .logo-container img:hover {
-      transform: scale(1.1);
-      filter: brightness(1.2);
-    }
-
-    /* Add animation to the entire container */
-    .animated-container {
-      animation: fadeIn 1.5s ease-in-out;
-    }
-  </style>
-
-  <div class="animated-container">
+  <div style="animation: fadeIn 1.5s ease-in-out;">
     <table style="border: 2px solid #4caf50; border-radius: 15px; padding: 20px; background-color: #f1f8e9; max-width: 800px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
       <!-- Title Section -->
       <tr>
-        <td align="center" colspan="3" style="text-align: center; text-align: center;">
+        <td align="center" colspan="3">
           <h1 style="color: #1b5e20; margin: 0; font-size: 24px;">Welcome to the Knowledge Repository</h1>
-          <p style="color: #388e3c; margin: 10px 0; font-size: 16px; text-align: center;">
+          <p style="color: #388e3c; margin: 10px 0; font-size: 16px;">
             This repository features an extensive collection of learning resources and course summaries, designed to empower developers and enthusiasts with cutting-edge insights. 
             <br>Explore curated content and deepen your understanding through enhanced summaries and visual aids.
           </p>
@@ -58,12 +36,12 @@
       <!-- Logo Section -->
       <tr>
         <td align="center" colspan="3">
-          <div class="logo-container" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 15px;">
-            <img src="assets/deeplearningai.png" alt="DeepLearning.AI Logo" height="85">
-            <img src="assets/hf.png" alt="HuggingFace Logo" height="85">
-            <img src="assets/openai.png" alt="OpenAI Logo" height="85">
-            <img src="assets/letta.png" alt="Letta Logo" height="85">
-            <img src="assets/google.png" alt="Google Logo" height="75">
+          <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 15px;">
+            <img src="assets/deeplearningai.png" alt="DeepLearning.AI Logo" height="85" style="transition: transform 0.3s ease, filter 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='brightness(1.2)';" onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
+            <img src="assets/hf.png" alt="HuggingFace Logo" height="85" style="transition: transform 0.3s ease, filter 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='brightness(1.2)';" onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
+            <img src="assets/openai.png" alt="OpenAI Logo" height="85" style="transition: transform 0.3s ease, filter 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='brightness(1.2)';" onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
+            <img src="assets/letta.png" alt="Letta Logo" height="85" style="transition: transform 0.3s ease, filter 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='brightness(1.2)';" onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
+            <img src="assets/google.png" alt="Google Logo" height="75" style="transition: transform 0.3s ease, filter 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='brightness(1.2)';" onmouseout="this.style.transform='scale(1)'; this.style.filter='brightness(1)';">
           </div>
         </td>
       </tr>
