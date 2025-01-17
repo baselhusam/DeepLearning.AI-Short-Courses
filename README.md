@@ -18,7 +18,7 @@
       <!-- Notion Link Section -->
       <tr>
         <td align="center" colspan="3" style="padding: 15px;">
-          <a href="https://basel-workspace.notion.site" target="_blank" style="text-decoration: none;">
+          <a href="https://basel-workspace.notion.site/Short-Courses-16949007fa2680048de4e7503bc5ec37" target="_blank" style="text-decoration: none;">
             <table style="border: 2px solid #4caf50; border-radius: 10px; padding: 10px; background-color: #e8f5e9; display: inline-block;">
               <tr>
                 <td align="center" style="padding: 15px;">
